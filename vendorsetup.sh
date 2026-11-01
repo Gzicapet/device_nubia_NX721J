@@ -36,11 +36,11 @@ fi
 echo "===================$1================"
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
      	echo "test =============="
-	export FOX_VERSION="R12.2"
+	# FOX_VERSION is obsolete in current OrangeFox; use FOX_MAINTAINER_PATCH_VERSION
 fi
 
 # Some about us
-export FOX_VERSION="R12.1"
+export FOX_MAINTAINER_PATCH_VERSION="R12.1"
 export OF_MAINTAINER=WTED68
 
 # Build environment stuffs
