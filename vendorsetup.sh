@@ -40,7 +40,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 fi
 
 # Some about us
-export FOX_MAINTAINER_PATCH_VERSION="R12.1"
+export FOX_MAINTAINER_PATCH_VERSION=1
 export OF_MAINTAINER=WTED68
 
 # Build environment stuffs
